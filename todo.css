@@ -1,0 +1,50 @@
+*{
+    background-color: #222; /* Dark grey background */
+    color: #ddd; /* Light grey text color */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0 5rem;
+}
+h2{
+    color: #3498db; /* Blue color */
+    font-size: 3rem;
+    text-align: center;
+}
+input{
+    height: 2.5rem; /* Increased height */
+    padding: 10px;
+    font-size: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.505);
+}
+button{
+    height: 2.5rem; /* Reduced height */
+    width: 50%; /* Adjusted width */
+    background-color: #3498db; /* Blue button color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    margin-left: 25%; /* Adjusted margin */
+    margin-bottom: 1rem; /* Increased margin */
+    cursor: pointer;
+    font-size: 1rem; /* Reduced font size */
+}
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+.delete{
+    background-color: #e74c3c; /* Red color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem; /* Reduced padding */
+    cursor: pointer;
+    font-size: 0.8rem; /* Reduced font size */
+}
+.delete:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
